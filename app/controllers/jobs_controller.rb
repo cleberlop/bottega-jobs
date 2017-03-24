@@ -7,6 +7,8 @@ class JobsController < ApplicationController
 
   def show
     @job = JobPost.find(params[:id])
+    @job.increment(:views)
+    @job.save
   end
 
   def new
