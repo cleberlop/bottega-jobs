@@ -1,3 +1,56 @@
-#jobs  
-  .test
-    | Hello world
+#jobs
+  .container
+    .row
+      .col-md-12.search-wrapper
+        .row
+          form.form-inline
+            input.form-control type="text" placeholder="Keywords (Job Title, Company, etc)"
+            input.form-control type="text" placeholder="Location(City, State, Zip)"
+            input.btn type="submit" placeholder="Search"
+        .row
+          form.form-inline
+            label.custom-control.custom-checkbox
+              input.custom-control-input type="checkbox"
+                span.custom-control-indicator
+                span.custom-control-description
+                  | Apprentice
+            label.custom-control.custom-checkbox
+              input.custom-control-input type="checkbox"
+                span.custom-control-indicator
+                span.custom-control-description
+                  | Internship
+            label.custom-control.custom-checkbox
+              input.custom-control-input type="checkbox"
+                span.custom-control-indicator
+                span.custom-control-description
+                  | Part Time
+            label.custom-control.custom-checkbox
+              input.custom-control-input type="checkbox"
+                span.custom-control-indicator
+                span.custom-control-description
+                  | Full Time
+
+    .row
+      .col-md-10.search-wrapper
+        ul.nav
+          li.nav-item
+            a.nav-link.active href="#" Sort By
+          li.nav-item
+            a.nav-link.active href="#" Distance
+          li.nav-item
+            a.nav-link.active href="#" Skills
+          li.nav-item
+            a.nav-link.active href="#" All Tracks
+      .col-md-2.search-wrapper
+        ul.nav
+          li.nav-item
+            a.nav-link.active href="#" Filter
+    .row
+      .col-md-12.search-wrapper
+        .col-md-12.search-wrapper
+          .job-title
+          .company 
+
+
+
+
