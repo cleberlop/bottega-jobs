@@ -1,6 +1,6 @@
 #job
   font-family: $main-font
-  background: $background
+  background: #F8F8F8 
   min-height: 100vh
   .show-head
     // border: 1px solid red
@@ -8,7 +8,16 @@
     display: inherit
   .col-md-9
   .back
-    padding-top: 31px
+    display: flex
+    align-items: center
+    padding-top: 26px
+    span     
+      position: absolute
+      left: 35px
+      top: 30px
+  .fa-angle-left
+    font-size: 30px
+    padding-right: 5px
   .col-md-3
     text-align: center
     padding-bottom: 20px
@@ -28,6 +37,10 @@
     cursor: pointer
     border-radius: 4px
     word-spacing: 3px
+
+  .button:hover
+    transition: all ease-in-out .2s
+    background-color: #1dc984
 
   .show-masthead
     border-bottom: 1px solid silver
