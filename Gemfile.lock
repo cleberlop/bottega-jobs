@@ -65,6 +65,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.1)
+      railties (>= 3.2, < 5.1)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.8.1)
@@ -93,6 +95,8 @@ GEM
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     orm_adapter (0.5.0)
+    petergate (1.7.0)
+      activerecord (> 4.0.0)
     pg (0.20.0)
     puma (3.8.2)
     rack (2.0.1)
@@ -185,9 +189,11 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
+  font-awesome-rails (~> 4.7, >= 4.7.0.1)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  petergate
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.1)
@@ -202,4 +208,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.14.3
+   1.14.6
