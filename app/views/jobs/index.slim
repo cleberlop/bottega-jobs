@@ -5,29 +5,30 @@
         .col-md-12.inner-search-wrapper
           form
             .row
-              .col-md-9
+              .col-md-6
                 input.form-control.keywords-input.text-and-btn type="text" placeholder="Keywords (Job Title, Company, etc)"
-              / .col-md-3  
-              /   input.form-control.location-input.text-and-btn type="text" placeholder="Location(City, State, Zip)"
+              .col-md-3  
+                input.form-control.location-input.text-and-btn type="text" placeholder="Location(City, State, Zip)"
               .col-md-3 
                 input.text-and-btn#submit-btn type="submit" value="SEARCH"
               .col-md-12.checkboxes
                 label.custom-control
                   input.custom-control-input type="checkbox"
-                    span.custom-control-indicator
+                    span.custom-control-indicator.custom-checkbox
                     span.custom-control-description
                       | Apprentice
                 label.custom-control
                   input.custom-control-input type="checkbox"
-                    span.custom-control-indicator
+                    span.custom-control-indicator.custom-checkbox
                     span.custom-control-description
                       | Internship
                 label.custom-control
                   input.custom-control-input type="checkbox"
-                    span.custom-control-indicator
+                    span.custom-control-indicator.custom-checkbox
                     span.custom-control-description
                       | Part Time
                 label.custom-control
+                    input.custom-control-input type="checkbox"
                     span.custom-control-indicator.custom-checkbox
                     span.custom-control-description
                       | Full Time
